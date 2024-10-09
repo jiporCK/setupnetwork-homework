@@ -61,8 +61,7 @@ function initChaincode(){
         --tlsRootCertFiles $PEER_BE2_TLSROOTCERTFILES \
         -c '\''{"function":"ChangeProductPrice","Args":["PRODUCT0", "555"]}'\''
 
-
-        echo "2. Querying the chaincode (to see the changes)... 🚀"
+        echo "3.1. Querying the chaincode (to see the changes)... 🚀"
         peer chaincode query \
         --channelID channeldemo \
         -n becc \

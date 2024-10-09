@@ -7,11 +7,11 @@ network option:
         "create")
             bash utils-scripts/createNetwork.sh
             # you can also start the dashboard here 
-            # just explorer start
+            just explorer start
             ;;
         "destroy")
             bash utils-scripts/destroyNetwork.sh
-            # just explorer destroy
+            just explorer destroy
             ;;
         *)
             echo "Invalid option"
